@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+  .circle1{ 
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    margin-left: 30px;
+    border: 3px solid black;
+    border-radius: 50%;
+  
+    }
+    .circle2{
+      width: 60px;
+      height: 60px;
+      background-color: blue;
+      margin-left: 30px;
+      border: 3px solid black;
+      border-radius: 50%;
+    }
+    .circle3{
+      width: 60px;
+      height: 60px;
+      background-color: red;
+      margin-left: 30px;
+      border: 3px solid black;
+      border-radius: 50%;
+    }
+    .circle4{
+      width: 60px;
+      height: 60px;
+      background-color: green;
+      margin-left: 30px;
+      border: 3px solid black;
+      border-radius: 50%;   
+    }
+    .sq{
+      margin-left: 70px;
+      margin-right: 70px;   
+      border-style: solid;   
+      border-width: 3px;
+      width: auto;    
+      height: 700px;
+    }
+  h1{
+    text-align: center;
+    font-size: 50px;
+  }
+  .btn{
+    position:relative;
+    left: 1700px;
+    bottom: auto;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 1rem 100;
+    padding: 2rem 3rem;
+  }
+  .arrow{
+    position:relative;
+    float: right;
+    bottom: 500px;
+    margin-right: 100px;
+
+  }
+ 
+  </style>
+
+
+</head>
+<body>
+      <h1>Bubbles App</h1>
+      <div class="sq"> <br><br><br><br><br><br>
+        <ul>
+          <div id="clear">
+        <ol onclick="re1(1)" ><div  id="ci1"  class="circle1"></div></ol><br><br><br><br>
+        <ol onclick="re2(2)" ><div  id="ci2"  class="circle2"></div></ol><br><br><br><br>
+        <ol onclick="re3(3)" ><div  id="ci3"  class="circle3"></div></ol><br><br><br><br>
+        <ol onclick="re4(4)" ><div  id="ci4"  class="circle4"></div></ol><br><br><br><br>
+      </div>   
+        <div class="arrow">
+          <ol> <img src="er.png" width="90px" height="40px" id="le" ></ol><br><br><br><br><br>
+          <ol> <img src="er.png" width="90px" height="40px" id="le"></ol><br><br><br><br><br>
+          <ol> <img src="er.png" width="90px" height="40px" id="le"></ol><br><br><br><br><br>
+          <ol> <img src="er.png" width="90px" height="40px" id="le"></ol><br><br><br><br><br>
+        </div> 
+      </ul>
+      </div>
+       </div>
+        
+      </div>
+         <div class="btn" >
+          <button  type="reset" style= "border: 6px outset black;  height:60px ; width:140px; font-size:30px; font-style:normal" onclick="reset()" > Reset </button>
+         </div>
+        
+     <script src="bubble.js" ></script>
+</body>
+</html>
